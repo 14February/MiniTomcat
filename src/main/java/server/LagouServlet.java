@@ -5,8 +5,6 @@ import java.io.IOException;
 public class LagouServlet extends HttpServlet {
     @Override
     public void doGet(Request request, Response response) {
-
-
         try {
             Thread.sleep(100000);
         } catch (InterruptedException e) {
