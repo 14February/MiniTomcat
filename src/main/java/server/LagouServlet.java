@@ -30,11 +30,9 @@ public class LagouServlet extends HttpServlet {
 
     @Override
     public void init() throws Exception {
-
     }
 
     @Override
     public void destory() throws Exception {
-
     }
 }
